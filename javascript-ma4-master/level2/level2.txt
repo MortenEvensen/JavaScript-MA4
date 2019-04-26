@@ -1,0 +1,33 @@
+What is the DOM?
+
+- The DOM stands for "Document Object Model" and it is the way a HTML document is organized when read by a browser. Every element has it's place in a "hierarchy" where parent-elements are "above" it's child-elements. This model makes it possible to identify specific content in the document, and then manipulate that content using JavaScript. 
+
+
+List three methods to manipulate the DOM.
+1) addEventListener(). Manipulates the DOM by identifying the element and then manipulating it through an event. 
+2) createElement(). Can be used to create a new html element. 
+3) setAttribute(). It is used to change the value of or add a new attribute to a HTML element. 
+
+
+What is an asynchronous call?
+An asynchronous call is how JavaScript is able to handle events. As JavaScript is a synchronous language, it is normally reading the script from top to bottom and execute the code in series as it occurs. That is a problem when you for instance want some user interaction like clicking a button, since you wouldn't know when that button would be clicked. That's when asynchronous calls are used, the call won't trigger the action from the script until the action/event is called. 
+
+
+Briefly explain what the sources tab in Chromes Developers Tools does.
+The sources tab is where the sources of the web page is made available. Here you would find the html, css, javascript, images and this can be used for instance debug your code. 
+
+
+What is a JavaScript promise?
+A promise is a way of outputting the result of an asynchronous operation, for instance loading data from a son object/API. The result will either be pendling(not completed or failed), fulfilled(completed successfully) or rejected(failed). 
+
+
+What is an API?
+API stands for Application Programming Interface, and it's a way of letting applications to communicate with each other. The API is a code that gives access to data from a server, so that the data can be used in a separate app or website. 
+
+
+What is a JavaScript Event?
+A JavaScript event is an interaction with the html, which changes something when triggered. That could be almost anything really, an event can change html content by the click of the mouse, change the style of an element by hovering the mouse over it and.. Yeah, pretty much anything you want. 
+
+
+What is event bubbling?
+Event bubbling is when an event occurs, and it's captured and handled by the innermost element fist and then is propagated to outer elements in the DOM. The opposite is capturing, where the event is first captured by the outermost element and then propagates "inwards" towards the inner elements. 
